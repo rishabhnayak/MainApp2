@@ -1,0 +1,225 @@
+{
+	"trainBtwnStnsList": [
+		{
+			"trainNumber": "18246",
+			"trainName": "BKN BSP EXP",
+			"fromStnCode": "NGP",
+			"toStnCode": "BSP",
+			"arrivalTime": "12:45",
+			"departureTime": "05:20",
+			"distance": 411,
+			"duration": "07:25",
+			"runningMon": "Y",
+			"runningTue": "N",
+			"runningWed": "Y",
+			"runningThu": "N",
+			"runningFri": "N",
+			"runningSat": "N",
+			"runningSun": "N",
+			"avlClasses": [
+				"2A",
+				"3A",
+				"SL"
+			],
+			"trainType": [
+				"O"
+			]
+		},
+		{
+			"trainNumber": "12261",
+			"trainName": "HOWRAH DURONTO",
+			"fromStnCode": "NGP",
+			"toStnCode": "BSP",
+			"arrivalTime": "09:55",
+			"departureTime": "04:15",
+			"distance": 411,
+			"duration": "05:40",
+			"runningMon": "Y",
+			"runningTue": "N",
+			"runningWed": "Y",
+			"runningThu": "Y",
+			"runningFri": "Y",
+			"runningSat": "N",
+			"runningSun": "N",
+			"avlClasses": [
+				"1A",
+				"2A",
+				"3A"
+			],
+			"trainType": [
+				"D"
+			]
+		},
+		{
+			"trainNumber": "22939",
+			"trainName": "HAPA BSP EXPRESS",
+			"fromStnCode": "NGP",
+			"toStnCode": "BSP",
+			"arrivalTime": "04:50",
+			"departureTime": "21:50",
+			"distance": 411,
+			"duration": "07:00",
+			"runningMon": "N",
+			"runningTue": "N",
+			"runningWed": "Y",
+			"runningThu": "N",
+			"runningFri": "N",
+			"runningSat": "N",
+			"runningSun": "N",
+			"avlClasses": [
+				"2A",
+				"3A",
+				"SL"
+			],
+			"trainType": [
+				"O"
+			]
+		},
+		{
+			"trainNumber": "12809",
+			"trainName": "HOWRAH MAIL",
+			"fromStnCode": "NGP",
+			"toStnCode": "BSP",
+			"arrivalTime": "17:55",
+			"departureTime": "11:25",
+			"distance": 411,
+			"duration": "06:30",
+			"runningMon": "Y",
+			"runningTue": "Y",
+			"runningWed": "Y",
+			"runningThu": "Y",
+			"runningFri": "Y",
+			"runningSat": "Y",
+			"runningSun": "Y",
+			"avlClasses": [
+				"1A",
+				"2A",
+				"3A",
+				"SL"
+			],
+			"trainType": [
+				"O"
+			]
+		},
+		{
+			"trainNumber": "18240",
+			"trainName": "NGP BILASPUR EX",
+			"fromStnCode": "NGP",
+			"toStnCode": "BSP",
+			"arrivalTime": "07:00",
+			"departureTime": "23:35",
+			"distance": 412,
+			"duration": "07:25",
+			"runningMon": "Y",
+			"runningTue": "Y",
+			"runningWed": "Y",
+			"runningThu": "Y",
+			"runningFri": "Y",
+			"runningSat": "Y",
+			"runningSun": "Y",
+			"avlClasses": [
+				"1A",
+				"2A",
+				"3A",
+				"SL"
+			],
+			"trainType": [
+				"O"
+			]
+		},
+		{
+			"trainNumber": "12859",
+			"trainName": "GITANJALI EXP",
+			"fromStnCode": "NGP",
+			"toStnCode": "BSP",
+			"arrivalTime": "01:15",
+			"departureTime": "19:05",
+			"distance": 411,
+			"duration": "06:10",
+			"runningMon": "Y",
+			"runningTue": "Y",
+			"runningWed": "Y",
+			"runningThu": "Y",
+			"runningFri": "Y",
+			"runningSat": "Y",
+			"runningSun": "Y",
+			"avlClasses": [
+				"2A",
+				"3A",
+				"SL"
+			],
+			"trainType": [
+				"O"
+			]
+		},
+		{
+			"trainNumber": "12856",
+			"trainName": "BSP INTERCITY",
+			"fromStnCode": "NGP",
+			"toStnCode": "BSP",
+			"arrivalTime": "13:40",
+			"departureTime": "06:30",
+			"distance": 411,
+			"duration": "07:10",
+			"runningMon": "Y",
+			"runningTue": "Y",
+			"runningWed": "Y",
+			"runningThu": "Y",
+			"runningFri": "Y",
+			"runningSat": "Y",
+			"runningSun": "Y",
+			"avlClasses": [
+				"1A",
+				"2A",
+				"3A",
+				"SL"
+			],
+			"trainType": [
+				"O"
+			]
+		},
+		{
+			"trainNumber": "12879",
+			"trainName": "LTT BBS SUP EXP",
+			"fromStnCode": "NGP",
+			"toStnCode": "BSP",
+			"arrivalTime": "20:15",
+			"departureTime": "14:00",
+			"distance": 411,
+			"duration": "06:15",
+			"runningMon": "N",
+			"runningTue": "N",
+			"runningWed": "Y",
+			"runningThu": "N",
+			"runningFri": "N",
+			"runningSat": "Y",
+			"runningSun": "N",
+			"avlClasses": [
+				"2A",
+				"3A",
+				"SL"
+			],
+			"trainType": [
+				"O"
+			]
+		}
+	],
+	"quotaList": [
+		"PT",
+		"GN",
+		"HP",
+		"LD",
+		"TQ",
+		"FT"
+	],
+	"serverId": "aposch02:instance1",
+	"timeStamp": "Dec 27, 2017 10:19:46 AM",
+	"generatedTimeStamp": {
+		"year": 2017,
+		"month": 12,
+		"day": 27,
+		"hour": 10,
+		"minute": 19,
+		"second": 46
+	}
+}
