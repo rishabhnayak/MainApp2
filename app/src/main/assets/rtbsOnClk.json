@@ -1,155 +1,136 @@
 {
-	"trainName": "NGP BILASPUR EX",
-	"prsSiteId": "B",
-	"distance": 412,
-	"baseFare": 230,
-	"reservationCharge": 20,
-	"superfastCharge": 0,
-	"fuelAmount": 0,
-	"totalConcession": 0,
-	"tatkalFare": 0,
-	"goodsServiceTax": 0,
-	"otherCharge": 0,
-	"cateringCharge": 0,
-	"dynamicFare": 0,
-	"totalFare": 250,
-	"wpServiceCharge": 0,
-	"wpServiceTax": 0,
-	"travelInsuranceCharge": 0,
-	"travelInsuranceServiceTax": 0,
-	"insuredPsgnCount": 0,
-	"serverId": "aposch02:instance2",
-	"timeStamp": "2017-12-27T10:23:52.740+05:30",
-	"totalCollectibleAmount": 250,
-	"bkgCfg": {
-		"seniorCitizenApplicable": true,
-		"foodChoiceEnabled": false,
-		"idRequired": false,
-		"bedRollFlagEnabled": false,
-		"maxPassengers": 6,
-		"maxInfants": 2,
-		"minNameLength": 3,
-		"maxNameLength": 16,
-		"srctznAge": 60,
-		"srctnwAge": 58,
-		"maxARPDays": 120,
-		"maxRetentionDays": 5,
-		"minPassengerAge": 5,
-		"maxPassengerAge": 125,
-		"maxChildAge": 11,
-		"minIdCardLength": 4,
-		"maxIdCardLength": 16,
-		"minPassportLength": 6,
-		"maxPassportLength": 9,
-		"lowerBerthApplicable": true,
-		"newTimeTable": true,
-		"childBerthMandatory": false,
-		"validIdCardTypes": [
-			"NULL_IDCARD",
-			"DRIVING_LICENSE",
-			"PASSPORT",
-			"PANCARD",
-			"VOTER_ICARD",
-			"GOVT_ICARD",
-			"STUDENT_ICARD",
-			"BANK_PASSBOOK",
-			"CREDIT_CARD",
-			"UNIQUE_ICARD"
+	"message": {
+		"trainName": "JANSHATABDI EXP",
+		"travelInsuranceCharge": 0.8,
+		"travelInsuranceServiceTax": 0.12,
+		"insuredPsgnCount": 1,
+		"serverId": "aposch01:instance4",
+		"timeStamp": "2018-02-24T18:51:36.980+05:30",
+		"bkgCfg": {
+			"seniorCitizenApplicable": true,
+			"foodChoiceEnabled": false,
+			"idRequired": false,
+			"bedRollFlagEnabled": false,
+			"maxPassengers": 6,
+			"maxInfants": 2,
+			"minNameLength": 3,
+			"maxNameLength": 16,
+			"srctznAge": 60,
+			"srctnwAge": 58,
+			"maxARPDays": 120,
+			"maxRetentionDays": 5,
+			"minPassengerAge": 5,
+			"maxPassengerAge": 125,
+			"maxChildAge": 11,
+			"minIdCardLength": 4,
+			"maxIdCardLength": 16,
+			"minPassportLength": 6,
+			"maxPassportLength": 9,
+			"lowerBerthApplicable": false,
+			"newTimeTable": true,
+			"childBerthMandatory": true,
+			"validIdCardTypes": [
+				"NULL_IDCARD",
+				"DRIVING_LICENSE",
+				"PASSPORT",
+				"PANCARD",
+				"VOTER_ICARD",
+				"GOVT_ICARD",
+				"STUDENT_ICARD",
+				"BANK_PASSBOOK",
+				"CREDIT_CARD",
+				"UNIQUE_ICARD"
+			],
+			"applicableBerthTypes": [
+				"WS"
+			],
+			"suvidhaTrain": false,
+			"specialTatkal": false,
+			"atasEnable": false,
+			"gatimaanTrain": false,
+			"travelInsuranceEnabled": true,
+			"travelInsuranceFareMsg": "Do you want to take Travel Insurance\n(₹0.92/person)?",
+			"uidVerificationPsgnInputFlag": 0,
+			"uidVerificationMasterListFlag": 2,
+			"uidMandatoryFlag": 0,
+			"gstDetailInputFlag": false,
+			"gstinPattern": "[0-3]{1}[0-9]{1}[A-Za-z]{5}[0-9]{4}[A-Za-z]{1}[a-zA-Z0-9]{3}",
+			"forgoConcession": true
+		},
+		"avlDayList": [
+			{
+				"availablityDate": "25-3-2018",
+				"availablityStatus": "AVAILABLE-0410",
+				"reasonType": "S",
+				"reason": "",
+				"availablityType": 1,
+				"currentBkgFlag": "N"
+			},
+			{
+				"availablityDate": "26-3-2018",
+				"availablityStatus": "AVAILABLE-0410",
+				"reasonType": "S",
+				"reason": "",
+				"availablityType": 1,
+				"currentBkgFlag": "N"
+			},
+			{
+				"availablityDate": "27-3-2018",
+				"availablityStatus": "AVAILABLE-0410",
+				"reasonType": "S",
+				"reason": "",
+				"availablityType": 1,
+				"currentBkgFlag": "N"
+			},
+			{
+				"availablityDate": "28-3-2018",
+				"availablityStatus": "AVAILABLE-0409",
+				"reasonType": "S",
+				"reason": "",
+				"availablityType": 1,
+				"currentBkgFlag": "N"
+			},
+			{
+				"availablityDate": "29-3-2018",
+				"availablityStatus": "AVAILABLE-0410",
+				"reasonType": "S",
+				"reason": "",
+				"availablityType": 1,
+				"currentBkgFlag": "N"
+			},
+			{
+				"availablityDate": "30-3-2018",
+				"availablityStatus": "AVAILABLE-0410",
+				"reasonType": "S",
+				"reason": "",
+				"availablityType": 1,
+				"currentBkgFlag": "N"
+			}
 		],
-		"applicableBerthTypes": [
-			"LB",
-			"MB",
-			"UB",
-			"SL",
-			"SU"
+		"informationMessage": [
+			{
+				"message": "* Are you aware that 43% of your fare is borne by the common citizens of the country?\n* Rounding off  to next multiple of Rs. 5 is included in Base fare.\n",
+				"popup": false,
+				"paramName": "FARE_BREAKUP"
+			},
+			{
+				"message": "Full fare will be applicable in case of child passengers.",
+				"popup": true,
+				"paramName": "ADD_PASSENGER_INIT"
+			},
+			{
+				"message": "Forgo Concession Opted",
+				"popup": false,
+				"paramName": "FORGO_CONC"
+			}
 		],
-		"suvidhaTrain": false,
-		"specialTatkal": false,
-		"atasEnable": false,
-		"gatimaanTrain": false,
-		"travelInsuranceEnabled": true,
-		"travelInsuranceFareMsg": "Do you want to take Travel Insurance\n(₹0.92/person)?",
-		"uidVerificationPsgnInputFlag": 0,
-		"uidVerificationMasterListFlag": 2,
-		"uidMandatoryFlag": 0,
-		"gstDetailInputFlag": false,
-		"gstinPattern": "[0-3]{1}[0-9]{1}[A-Za-z]{5}[0-9]{4}[A-Za-z]{1}[a-zA-Z0-9]{3}",
-		"forgoConcession": true
-	},
-	"avlDayList": [
-		{
-			"availablityDate": "27-12-2017",
-			"availablityStatus": "GNWL34/WL15",
-			"reasonType": "S",
-			"reason": "",
-			"availablityType": 3,
-			"currentBkgFlag": "N",
-			"waitListType": 9
-		},
-		{
-			"availablityDate": "28-12-2017",
-			"availablityStatus": "GNWL96/WL57",
-			"reasonType": "S",
-			"reason": "",
-			"availablityType": 8224,
-			"currentBkgFlag": "N",
-			"waitListType": 9
-		},
-		{
-			"availablityDate": "29-12-2017",
-			"availablityStatus": "RAC  48/RAC  44",
-			"reasonType": "S",
-			"reason": "",
-			"availablityType": 2,
-			"currentBkgFlag": "N",
-			"waitListType": 8224
-		},
-		{
-			"availablityDate": "30-12-2017",
-			"availablityStatus": "RAC  89/RAC  87",
-			"reasonType": "S",
-			"reason": "",
-			"availablityType": 2,
-			"currentBkgFlag": "N",
-			"waitListType": 8224
-		},
-		{
-			"availablityDate": "31-12-2017",
-			"availablityStatus": "AVAILABLE-0074",
-			"reasonType": "S",
-			"reason": "",
-			"availablityType": 1,
-			"currentBkgFlag": "N",
-			"waitListType": 8224
-		},
-		{
-			"availablityDate": "1-1-2018",
-			"availablityStatus": "RAC  58/RAC  54",
-			"reasonType": "S",
-			"reason": "",
-			"availablityType": 2,
-			"currentBkgFlag": "N",
-			"waitListType": 8224
+		"generatedTimeStamp": {
+			"year": 2018,
+			"month": 2,
+			"day": 24,
+			"hour": 18,
+			"minute": 51,
+			"second": 36
 		}
-	],
-	"informationMessage": [
-		{
-			"message": "* Are you aware that 43% of your fare is borne by the common citizens of the country?\n* Rounding off  to next multiple of Rs. 5 is included in Base fare.\n",
-			"popup": false,
-			"paramName": "FARE_BREAKUP"
-		},
-		{
-			"message": "Forgo Concession Opted",
-			"popup": false,
-			"paramName": "FORGO_CONC"
-		}
-	],
-	"generatedTimeStamp": {
-		"year": 2017,
-		"month": 12,
-		"day": 27,
-		"hour": 10,
-		"minute": 23,
-		"second": 52
 	}
 }

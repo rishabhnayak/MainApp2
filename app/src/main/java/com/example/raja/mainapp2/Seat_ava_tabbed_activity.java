@@ -1,151 +1,144 @@
 package com.example.raja.mainapp2;
 
 import android.support.design.widget.TabLayout;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
+
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.View;
-import android.view.ViewGroup;
-
 import android.widget.TextView;
+import android.widget.Toast;
+
+import com.example.raja.mainapp2.Fragments.FiveFragment;
+import com.example.raja.mainapp2.Fragments.FourFragment;
+import com.example.raja.mainapp2.Fragments.OneFragment;
+import com.example.raja.mainapp2.Fragments.ThreeFragment;
+import com.example.raja.mainapp2.Fragments.TwoFragment;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Seat_ava_tabbed_activity extends AppCompatActivity {
-
-    /**
-     * The {@link android.support.v4.view.PagerAdapter} that will provide
-     * fragments for each of the sections. We use a
-     * {@link FragmentPagerAdapter} derivative, which will keep every
-     * loaded fragment in memory. If this becomes too memory intensive, it
-     * may be best to switch to a
-     * {@link android.support.v4.app.FragmentStatePagerAdapter}.
-     */
-    private SectionsPagerAdapter mSectionsPagerAdapter;
-
-    /**
-     * The {@link ViewPager} that will host the section contents.
-     */
-    private ViewPager mViewPager;
-
+String a1,a2,a3,a4,a5,d,m,y,from_code,from_name,to_code,to_name,train_no,train_name,arr,dep,tt;
+    private TabLayout tabLayout;
+    private ViewPager viewPager;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_seat_ava_tabbed_activity);
+        setContentView(R.layout.tab_layout);
+try {
+    a1 = getIntent().getExtras().getString("1");
+    a2 = getIntent().getExtras().getString("2");
+    a3 = getIntent().getExtras().getString("3");
+    a4 = getIntent().getExtras().getString("4");
+    a5 = getIntent().getExtras().getString("5");
+    d = getIntent().getExtras().getString("d");
+    m = getIntent().getExtras().getString("m");
+    y = getIntent().getExtras().getString("y");
+    from_code = getIntent().getExtras().getString("from_code");
+    to_code = getIntent().getExtras().getString("to_code");
+    from_name = getIntent().getExtras().getString("from_name");
+    to_name = getIntent().getExtras().getString("to_name");
+    train_name = getIntent().getExtras().getString("train_name");
+    train_no = getIntent().getExtras().getString("train_no");
+    arr = getIntent().getExtras().getString("arr");
+    dep = getIntent().getExtras().getString("dep");
+    tt = getIntent().getExtras().getString("tt");
 
-        // Create the adapter that will return a fragment for each of the three
-        // primary sections of the activity.
-        mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
+}catch (Exception e){
+    System.out.println("Error...."+e.getMessage());
+}
+        TextView trainno= (TextView) findViewById(R.id.trainNumber);
+        TextView trainname= (TextView) findViewById(R.id.trainName);
+        TextView departuretime= (TextView) findViewById(R.id.departureTime);
+        TextView arrivaltime= (TextView) findViewById(R.id.arrivalTime);
+        TextView duration= (TextView) findViewById(R.id.duration);
+        TextView src= (TextView) findViewById(R.id.trainSrc);
+        TextView dst= (TextView) findViewById(R.id.trainDstn);
+        trainno.setText(train_no);
+        trainname.setText(train_name);
+        departuretime.setText(dep);
+        arrivaltime.setText(arr);
+        duration.setText(tt);
+        src.setText(to_name+"-"+to_code);
+        dst.setText(from_name+"-"+from_code);
 
-        // Set up the ViewPager with the sections adapter.
-        mViewPager = (ViewPager) findViewById(R.id.container);
-        mViewPager.setAdapter(mSectionsPagerAdapter);
+       // Toast.makeText(this, a1, Toast.LENGTH_SHORT).show();
+        try {
+        viewPager = (ViewPager) findViewById(R.id.container);
+        setupViewPager(viewPager);
+        tabLayout = (TabLayout) findViewById(R.id.tabs);
+        tabLayout.setupWithViewPager(viewPager);
+        }catch (Exception e){
 
-        TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
-        tabLayout.setupWithViewPager(mViewPager);
-
-    }
-
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_seat_ava_tabbed_activity, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
-
-    /**
-     * A placeholder fragment containing a simple view.
-     */
-    public static class PlaceholderFragment extends Fragment {
-        /**
-         * The fragment argument representing the section number for this
-         * fragment.
-         */
-        private static final String ARG_SECTION_NUMBER = "section_number";
-
-        public PlaceholderFragment() {
-        }
-
-        /**
-         * Returns a new instance of this fragment for the given section
-         * number.
-         */
-        public static PlaceholderFragment newInstance(int sectionNumber) {
-            PlaceholderFragment fragment = new PlaceholderFragment();
-            Bundle args = new Bundle();
-            args.putInt(ARG_SECTION_NUMBER, sectionNumber);
-            fragment.setArguments(args);
-            return fragment;
-        }
-
-        @Override
-        public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                                 Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_seat_ava_tabbed_activity, container, false);
-            TextView textView = (TextView) rootView.findViewById(R.id.section_label);
-            textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
-            return rootView;
         }
     }
 
-    /**
-     * A {@link FragmentPagerAdapter} that returns a fragment corresponding to
-     * one of the sections/tabs/pages.
-     */
-    public class SectionsPagerAdapter extends FragmentPagerAdapter {
+    private void setupViewPager(ViewPager viewPager) {
+        try{    ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
 
-        public SectionsPagerAdapter(FragmentManager fm) {
-            super(fm);
+
+            if (a1!=null&&a2!=null&&a3!=null&&a4!=null&&a5!=null){
+                adapter.addFrag(new OneFragment(a1, d, m, y, from_code, from_name, to_code, to_name,train_name,train_no), a1);
+                adapter.addFrag(new TwoFragment(a2, d, m, y, from_code, from_name, to_code, to_name,train_name,train_no), a2);
+                adapter.addFrag(new ThreeFragment(a3, d, m, y, from_code, from_name, to_code, to_name,train_name,train_no), a3);
+                adapter.addFrag(new FourFragment(a4, d, m, y, from_code, from_name, to_code, to_name,train_name,train_no),a4);
+                adapter.addFrag(new FiveFragment(a5, d, m, y, from_code, from_name, to_code, to_name,train_name,train_no),a5);
+            }
+           else if (a1!=null&&a2!=null&&a3!=null&&a4!=null){
+                adapter.addFrag(new OneFragment(a1, d, m, y, from_code, from_name, to_code, to_name,train_name,train_no), a1);
+                adapter.addFrag(new TwoFragment(a2, d, m, y, from_code, from_name, to_code, to_name,train_name,train_no), a2);
+                adapter.addFrag(new ThreeFragment(a3, d, m, y, from_code, from_name, to_code, to_name,train_name,train_no), a3);
+                adapter.addFrag(new FourFragment(a4, d, m, y, from_code, from_name, to_code, to_name,train_name,train_no),a4);
+            }
+            else if (a1!=null&&a2!=null&&a3!=null){
+                adapter.addFrag(new OneFragment(a1, d, m, y, from_code, from_name, to_code, to_name,train_name,train_no), a1);
+                adapter.addFrag(new TwoFragment(a2, d, m, y, from_code, from_name, to_code, to_name,train_name,train_no), a2);
+                adapter.addFrag(new ThreeFragment(a3, d, m, y, from_code, from_name, to_code, to_name,train_name,train_no), a3);
+            }
+            else if (a1!=null&&a2!=null){
+                adapter.addFrag(new OneFragment(a1, d, m, y, from_code, from_name, to_code, to_name,train_name,train_no), a1);
+                adapter.addFrag(new TwoFragment(a2, d, m, y, from_code, from_name, to_code, to_name,train_name,train_no), a2);
+            }
+            else if (a1!=null){
+                adapter.addFrag(new OneFragment(a1, d, m, y, from_code, from_name, to_code, to_name,train_name,train_no), a1);
+            }
+
+       viewPager.setAdapter(adapter);}
+       catch (Exception e){
+
+       }
+    }
+
+    class ViewPagerAdapter extends FragmentPagerAdapter {
+        private final List<Fragment> mFragmentList = new ArrayList<>();
+        private final List<String> mFragmentTitleList = new ArrayList<>();
+
+        public ViewPagerAdapter(FragmentManager manager) {
+            super(manager);
         }
 
         @Override
         public Fragment getItem(int position) {
-            // getItem is called to instantiate the fragment for the given page.
-            // Return a PlaceholderFragment (defined as a static inner class below).
-            return PlaceholderFragment.newInstance(position + 1);
+            return mFragmentList.get(position);
         }
 
         @Override
         public int getCount() {
-            // Show 3 total pages.
-            return 3;
+            return mFragmentList.size();
+        }
+
+        public void addFrag(Fragment fragment, String title) {
+            mFragmentList.add(fragment);
+            mFragmentTitleList.add(title);
         }
 
         @Override
         public CharSequence getPageTitle(int position) {
-            switch (position) {
-                case 0:
-                    return "SECTION 1";
-                case 1:
-                    return "SECTION 2";
-                case 2:
-                    return "SECTION 3";
-            }
-            return null;
+            return mFragmentTitleList.get(position);
         }
     }
 }

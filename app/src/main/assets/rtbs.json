@@ -1,225 +1,350 @@
 {
-	"trainBtwnStnsList": [
-		{
-			"trainNumber": "18246",
-			"trainName": "BKN BSP EXP",
-			"fromStnCode": "NGP",
-			"toStnCode": "BSP",
-			"arrivalTime": "12:45",
-			"departureTime": "05:20",
-			"distance": 411,
-			"duration": "07:25",
-			"runningMon": "Y",
-			"runningTue": "N",
-			"runningWed": "Y",
-			"runningThu": "N",
-			"runningFri": "N",
-			"runningSat": "N",
-			"runningSun": "N",
-			"avlClasses": [
-				"2A",
-				"3A",
-				"SL"
-			],
-			"trainType": [
-				"O"
-			]
-		},
-		{
-			"trainNumber": "12261",
-			"trainName": "HOWRAH DURONTO",
-			"fromStnCode": "NGP",
-			"toStnCode": "BSP",
-			"arrivalTime": "09:55",
-			"departureTime": "04:15",
-			"distance": 411,
-			"duration": "05:40",
-			"runningMon": "Y",
-			"runningTue": "N",
-			"runningWed": "Y",
-			"runningThu": "Y",
-			"runningFri": "Y",
-			"runningSat": "N",
-			"runningSun": "N",
-			"avlClasses": [
-				"1A",
-				"2A",
-				"3A"
-			],
-			"trainType": [
-				"D"
-			]
-		},
-		{
-			"trainNumber": "22939",
-			"trainName": "HAPA BSP EXPRESS",
-			"fromStnCode": "NGP",
-			"toStnCode": "BSP",
-			"arrivalTime": "04:50",
-			"departureTime": "21:50",
-			"distance": 411,
-			"duration": "07:00",
-			"runningMon": "N",
-			"runningTue": "N",
-			"runningWed": "Y",
-			"runningThu": "N",
-			"runningFri": "N",
-			"runningSat": "N",
-			"runningSun": "N",
-			"avlClasses": [
-				"2A",
-				"3A",
-				"SL"
-			],
-			"trainType": [
-				"O"
-			]
-		},
-		{
-			"trainNumber": "12809",
-			"trainName": "HOWRAH MAIL",
-			"fromStnCode": "NGP",
-			"toStnCode": "BSP",
-			"arrivalTime": "17:55",
-			"departureTime": "11:25",
-			"distance": 411,
-			"duration": "06:30",
-			"runningMon": "Y",
-			"runningTue": "Y",
-			"runningWed": "Y",
-			"runningThu": "Y",
-			"runningFri": "Y",
-			"runningSat": "Y",
-			"runningSun": "Y",
-			"avlClasses": [
-				"1A",
-				"2A",
-				"3A",
-				"SL"
-			],
-			"trainType": [
-				"O"
-			]
-		},
-		{
-			"trainNumber": "18240",
-			"trainName": "NGP BILASPUR EX",
-			"fromStnCode": "NGP",
-			"toStnCode": "BSP",
-			"arrivalTime": "07:00",
-			"departureTime": "23:35",
-			"distance": 412,
-			"duration": "07:25",
-			"runningMon": "Y",
-			"runningTue": "Y",
-			"runningWed": "Y",
-			"runningThu": "Y",
-			"runningFri": "Y",
-			"runningSat": "Y",
-			"runningSun": "Y",
-			"avlClasses": [
-				"1A",
-				"2A",
-				"3A",
-				"SL"
-			],
-			"trainType": [
-				"O"
-			]
-		},
-		{
-			"trainNumber": "12859",
-			"trainName": "GITANJALI EXP",
-			"fromStnCode": "NGP",
-			"toStnCode": "BSP",
-			"arrivalTime": "01:15",
-			"departureTime": "19:05",
-			"distance": 411,
-			"duration": "06:10",
-			"runningMon": "Y",
-			"runningTue": "Y",
-			"runningWed": "Y",
-			"runningThu": "Y",
-			"runningFri": "Y",
-			"runningSat": "Y",
-			"runningSun": "Y",
-			"avlClasses": [
-				"2A",
-				"3A",
-				"SL"
-			],
-			"trainType": [
-				"O"
-			]
-		},
-		{
-			"trainNumber": "12856",
-			"trainName": "BSP INTERCITY",
-			"fromStnCode": "NGP",
-			"toStnCode": "BSP",
-			"arrivalTime": "13:40",
-			"departureTime": "06:30",
-			"distance": 411,
-			"duration": "07:10",
-			"runningMon": "Y",
-			"runningTue": "Y",
-			"runningWed": "Y",
-			"runningThu": "Y",
-			"runningFri": "Y",
-			"runningSat": "Y",
-			"runningSun": "Y",
-			"avlClasses": [
-				"1A",
-				"2A",
-				"3A",
-				"SL"
-			],
-			"trainType": [
-				"O"
-			]
-		},
-		{
-			"trainNumber": "12879",
-			"trainName": "LTT BBS SUP EXP",
-			"fromStnCode": "NGP",
-			"toStnCode": "BSP",
-			"arrivalTime": "20:15",
-			"departureTime": "14:00",
-			"distance": 411,
-			"duration": "06:15",
-			"runningMon": "N",
-			"runningTue": "N",
-			"runningWed": "Y",
-			"runningThu": "N",
-			"runningFri": "N",
-			"runningSat": "Y",
-			"runningSun": "N",
-			"avlClasses": [
-				"2A",
-				"3A",
-				"SL"
-			],
-			"trainType": [
-				"O"
-			]
+	"message": {
+		"trainBtwnStnsList": [
+			{
+				"trainNumber": "18237",
+				"trainName": "CHATTISGARH EXP",
+				"fromStnCode": "BYT",
+				"toStnCode": "TLD",
+				"arrivalTime": "15:24",
+				"departureTime": "15:00",
+				"distance": 26,
+				"duration": "00:24",
+				"runningMon": "Y",
+				"runningTue": "Y",
+				"runningWed": "Y",
+				"runningThu": "Y",
+				"runningFri": "Y",
+				"runningSat": "Y",
+				"runningSun": "Y",
+				"avlClasses": [
+					"1A",
+					"2A",
+					"3A",
+					"SL"
+				],
+				"trainType": [
+					"O"
+				]
+			},
+			{
+				"trainNumber": "18242",
+				"trainName": "ABKP DURG PAS EX",
+				"fromStnCode": "BYT",
+				"toStnCode": "TLD",
+				"arrivalTime": "07:13",
+				"departureTime": "06:50",
+				"distance": 26,
+				"duration": "00:23",
+				"runningMon": "Y",
+				"runningTue": "Y",
+				"runningWed": "Y",
+				"runningThu": "Y",
+				"runningFri": "Y",
+				"runningSat": "Y",
+				"runningSun": "Y",
+				"avlClasses": [
+					"2A",
+					"3A",
+					"SL"
+				],
+				"trainType": [
+					"O"
+				]
+			},
+			{
+				"trainNumber": "18030",
+				"trainName": "SHM LTT EXPRESS",
+				"fromStnCode": "BYT",
+				"toStnCode": "TLD",
+				"arrivalTime": "05:48",
+				"departureTime": "05:32",
+				"distance": 26,
+				"duration": "00:16",
+				"runningMon": "Y",
+				"runningTue": "Y",
+				"runningWed": "Y",
+				"runningThu": "Y",
+				"runningFri": "Y",
+				"runningSat": "Y",
+				"runningSun": "Y",
+				"avlClasses": [
+					"2A",
+					"3A",
+					"SL"
+				],
+				"trainType": [
+					"O"
+				]
+			},
+			{
+				"trainNumber": "58111",
+				"trainName": "TATA ITR PASS",
+				"fromStnCode": "BYT",
+				"toStnCode": "TLD",
+				"arrivalTime": "21:21",
+				"departureTime": "21:00",
+				"distance": 26,
+				"duration": "00:21",
+				"runningMon": "Y",
+				"runningTue": "Y",
+				"runningWed": "Y",
+				"runningThu": "Y",
+				"runningFri": "Y",
+				"runningSat": "Y",
+				"runningSun": "Y",
+				"avlClasses": [
+					"SL"
+				],
+				"trainType": [
+					"O"
+				]
+			},
+			{
+				"trainNumber": "28242",
+				"trainName": "CHRM DURG PAS EX",
+				"fromStnCode": "BYT",
+				"toStnCode": "TLD",
+				"arrivalTime": "07:13",
+				"departureTime": "06:50",
+				"distance": 26,
+				"duration": "00:23",
+				"runningMon": "Y",
+				"runningTue": "Y",
+				"runningWed": "Y",
+				"runningThu": "Y",
+				"runningFri": "Y",
+				"runningSat": "Y",
+				"runningSun": "Y",
+				"avlClasses": [
+					"SL"
+				],
+				"trainType": [
+					"O"
+				]
+			},
+			{
+				"trainNumber": "12834",
+				"trainName": "HWH ADI EXPRESS",
+				"fromStnCode": "BYT",
+				"toStnCode": "TLD",
+				"arrivalTime": "12:51",
+				"departureTime": "12:33",
+				"distance": 26,
+				"duration": "00:18",
+				"runningMon": "Y",
+				"runningTue": "Y",
+				"runningWed": "Y",
+				"runningThu": "Y",
+				"runningFri": "Y",
+				"runningSat": "Y",
+				"runningSun": "Y",
+				"avlClasses": [
+					"2A",
+					"3A",
+					"SL"
+				],
+				"trainType": [
+					"O"
+				]
+			},
+			{
+				"trainNumber": "18517",
+				"trainName": "KRBA VSKP EXP",
+				"fromStnCode": "BYT",
+				"toStnCode": "TLD",
+				"arrivalTime": "19:01",
+				"departureTime": "18:43",
+				"distance": 26,
+				"duration": "00:18",
+				"runningMon": "Y",
+				"runningTue": "Y",
+				"runningWed": "Y",
+				"runningThu": "Y",
+				"runningFri": "Y",
+				"runningSat": "Y",
+				"runningSun": "Y",
+				"avlClasses": [
+					"2A",
+					"3A",
+					"SL"
+				],
+				"trainType": [
+					"O"
+				]
+			},
+			{
+				"trainNumber": "13288",
+				"trainName": "SOUTH BIHAR EXP",
+				"fromStnCode": "BYT",
+				"toStnCode": "TLD",
+				"arrivalTime": "18:28",
+				"departureTime": "18:06",
+				"distance": 26,
+				"duration": "00:22",
+				"runningMon": "Y",
+				"runningTue": "Y",
+				"runningWed": "Y",
+				"runningThu": "Y",
+				"runningFri": "Y",
+				"runningSat": "Y",
+				"runningSun": "Y",
+				"avlClasses": [
+					"1A",
+					"2A",
+					"3A",
+					"SL"
+				],
+				"trainType": [
+					"O"
+				]
+			},
+			{
+				"trainNumber": "15159",
+				"trainName": "SARNATH EXPRESS",
+				"fromStnCode": "BYT",
+				"toStnCode": "TLD",
+				"arrivalTime": "05:25",
+				"departureTime": "05:07",
+				"distance": 26,
+				"duration": "00:18",
+				"runningMon": "Y",
+				"runningTue": "Y",
+				"runningWed": "Y",
+				"runningThu": "Y",
+				"runningFri": "Y",
+				"runningSat": "Y",
+				"runningSun": "Y",
+				"avlClasses": [
+					"1A",
+					"2A",
+					"3A",
+					"SL"
+				],
+				"trainType": [
+					"O"
+				]
+			},
+			{
+				"trainNumber": "12854",
+				"trainName": "AMARKANTAK EXP",
+				"fromStnCode": "BYT",
+				"toStnCode": "TLD",
+				"arrivalTime": "06:19",
+				"departureTime": "06:00",
+				"distance": 26,
+				"duration": "00:19",
+				"runningMon": "Y",
+				"runningTue": "Y",
+				"runningWed": "Y",
+				"runningThu": "Y",
+				"runningFri": "Y",
+				"runningSat": "Y",
+				"runningSun": "Y",
+				"avlClasses": [
+					"1A",
+					"2A",
+					"3A",
+					"SL"
+				],
+				"trainType": [
+					"O"
+				]
+			},
+			{
+				"trainNumber": "18239",
+				"trainName": "GAD NGP EXP",
+				"fromStnCode": "BYT",
+				"toStnCode": "TLD",
+				"arrivalTime": "21:43",
+				"departureTime": "21:25",
+				"distance": 26,
+				"duration": "00:18",
+				"runningMon": "Y",
+				"runningTue": "Y",
+				"runningWed": "Y",
+				"runningThu": "Y",
+				"runningFri": "Y",
+				"runningSat": "Y",
+				"runningSun": "Y",
+				"avlClasses": [
+					"1A",
+					"2A",
+					"3A",
+					"SL"
+				],
+				"trainType": [
+					"O"
+				]
+			},
+			{
+				"trainNumber": "12855",
+				"trainName": "NAGPUR INTERCIT",
+				"fromStnCode": "BYT",
+				"toStnCode": "TLD",
+				"arrivalTime": "16:58",
+				"departureTime": "16:40",
+				"distance": 26,
+				"duration": "00:18",
+				"runningMon": "Y",
+				"runningTue": "Y",
+				"runningWed": "Y",
+				"runningThu": "Y",
+				"runningFri": "Y",
+				"runningSat": "Y",
+				"runningSun": "Y",
+				"avlClasses": [
+					"1A",
+					"2A",
+					"3A",
+					"SL"
+				],
+				"trainType": [
+					"O"
+				]
+			},
+			{
+				"trainNumber": "18206",
+				"trainName": "NTV DURG EXP",
+				"fromStnCode": "BYT",
+				"toStnCode": "TLD",
+				"arrivalTime": "11:16",
+				"departureTime": "10:58",
+				"distance": 26,
+				"duration": "00:18",
+				"runningMon": "N",
+				"runningTue": "N",
+				"runningWed": "N",
+				"runningThu": "N",
+				"runningFri": "N",
+				"runningSat": "N",
+				"runningSun": "Y",
+				"avlClasses": [
+					"2A",
+					"3A",
+					"SL"
+				],
+				"trainType": [
+					"O"
+				]
+			}
+		],
+		"quotaList": [
+			"SS",
+			"GN",
+			"HP",
+			"LD",
+			"FT"
+		],
+		"serverId": "aposnd02:instance4",
+		"timeStamp": "Feb 24, 2018 1:50:56 PM",
+		"generatedTimeStamp": {
+			"year": 2018,
+			"month": 2,
+			"day": 24,
+			"hour": 13,
+			"minute": 50,
+			"second": 56
 		}
-	],
-	"quotaList": [
-		"PT",
-		"GN",
-		"HP",
-		"LD",
-		"TQ",
-		"FT"
-	],
-	"serverId": "aposch02:instance1",
-	"timeStamp": "Dec 27, 2017 10:19:46 AM",
-	"generatedTimeStamp": {
-		"year": 2017,
-		"month": 12,
-		"day": 27,
-		"hour": 10,
-		"minute": 19,
-		"second": 46
 	}
 }
